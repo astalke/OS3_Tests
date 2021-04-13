@@ -1,0 +1,21 @@
+Testy sprawdzają podstawowe własności funkcji bibliotecznej negateexit, którą
+mamy napisać w ramach zadania 3.
+
+Jest spora szansa, że coś źle zrozumiałem z treści zadania lub specyfikacja
+zadania zmieni się po zadaniu przez kogoś pytania, więc proszę patrzeć na te
+testy z przymrużeniem oka. Starałem się je w miarę opisać, ale w razie
+wątpliwości śmiało piszcie.
+
+Oczywiście kompilacji dokonujemy na Minixie. Z tego powodu nie ma pliku 
+Makefile, bo nie działał za dobrze. Z tego powodu kompilacja jest realizowana
+przez skrypt basha, który następnie uruchamia testy.
+
+Testy po pobraniu uruchamiamy na zmodyfikowanym już systemie operacyjnym przy
+pomocy skryptu start.sh
+
+Uruchomienie testów: ./start.sh (musimy być w tym samym katalogu co testy).
+
+Bash jest zainstalowany na Minixie, testowałem na czystej maszynie bez żadnego
+dodatkowego oprogramowania, więc skrypt powinien zadziałać.
+
+Jestem otwarty na dodanie nowych testów do repozytorium.
