@@ -1,5 +1,7 @@
 #include <unistd.h>
 #include <assert.h>
+#include <sys/wait.h>
+#include <sys/types.h>
 
 int main() {
   negateexit(1);
